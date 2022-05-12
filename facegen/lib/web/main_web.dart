@@ -30,6 +30,7 @@ class MainWebsite extends StatefulWidget {
 }
 
 class _MainWebsiteState extends State<MainWebsite> {
+  /*String gender = 'Male';
   String _choosenSkin = 'Light';
   String _choosenShape = 'Square/Triangle';
   String _choosenEyes = 'Monolid';
@@ -38,8 +39,17 @@ class _MainWebsiteState extends State<MainWebsite> {
   String _choosenEars = 'Hidden';
   String _choosenHair = 'None';
   String _choosenEyebrows = 'None';
-  String _choosenBeard = 'None';
-  String gender = 'Male';
+  String _choosenBeard = 'None';*/
+
+  String _choosenSkin = '';
+  String _choosenShape = '';
+  String _choosenEyes = '';
+  String _choosenNose = '';
+  String _choosenMouth = '';
+  String _choosenEars = '';
+  String _choosenHair = '';
+  String _choosenEyebrows = '';
+  String _choosenBeard = '';
 
   List<String>? chooseList;
 
